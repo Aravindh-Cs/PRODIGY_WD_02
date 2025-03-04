@@ -1,0 +1,69 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(13, 21, 65);
+    color: aliceblue;
+}
+.watch 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 85%;
+    border: 2px solid salmon;
+}
+.btns button
+{
+    font-size: 21px;
+    padding: 4px;
+    background: none;
+    border: 2px solid salmon;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.stopwatch,.digitalwatch
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 10px;
+    width: 30%;
+}
+.btns
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media(max-width:800px)
+{
+    .stopwatch,.digitalwatch
+    {
+        width: 80%;
+    }
+}
